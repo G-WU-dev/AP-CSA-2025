@@ -1,3 +1,23 @@
-## Part A
+public class SignedText {
+  public String firstName;
+  public String lastName;
 
-## Part B
+public SignedText(String f, String l) {
+  firstName = f;
+  lastName = l; 
+}
+
+public String getSignature() {
+  if (firstName == null) {
+    return lastName;
+  }
+  else {
+    return firstName + "-" + lastName; 
+  }
+}
+
+public String addSignature(String add) {
+  public String sig  = getSignature();
+  
+  
+}
