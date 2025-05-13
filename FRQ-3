@@ -1,5 +1,9 @@
 ## Part A
 public class SumorSameGame {
-  public SumorSameGame() 
-}
+  public SumorSameGame() {
+  }
+
 ## Part B
+  public boolean clearPair(int row, int col) {
+  }
+}
