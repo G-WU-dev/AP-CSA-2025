@@ -4,3 +4,8 @@ public int walkDogs (int hour) {
 
 }
 
+## Part B
+
+public int dogWalkShift(int startHour, int endHour) {
+
+}
