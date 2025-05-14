@@ -18,6 +18,12 @@ public String getSignature() {
 
 public String addSignature(String add) {
   public String sig  = getSignature();
-  
-  
+  public String siglength = sig.length();
+  if (sig.indexOf(add) == 0) {
+    return + add.substring(sigLen) + sig; 
+  }
+  else if (sig.indexOf(add) == sig.length() - add.length()) { 
+    return add;
+  }
+return add + sig;
 }
