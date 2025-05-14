@@ -1,3 +1,25 @@
 ## Part A
+public Round(String[] names) {
+  competitorList = new ArrayList<Competitor>();
 
+  for (int i = 0; i < names.length; i++) {
+    competitorList.add(new Competitor(names[i], i + 1));
+  }
+}
 ## Part B
+public ArrayList<Match> buildMatches() {
+  ArrayList<Match> built = new ArrayList<Match>();
+
+  if (competitorList.size() % 2 == 0) {
+    for (int i = 0; i < competitorList(); i++) {
+      built.add(new MatchCompetitorList.get(i), competitorList.get(competitorList.size() - 1 - i)));
+    }
+  }
+
+  else {
+    for (int i = 1; i < competitorList.size(); i++) {
+      built.add(new Match(competitorList.get(i), competitorList.get(competitorList.size() - 1 - i)));
+    }
+  }
+return built;
+}
