@@ -14,6 +14,9 @@ SignedText class
 
 ## Question 3 - Tournament Placement
 
+- Part A : Round Constructor
+- Part B : buildMatches() 
+
 ## Question 4 - SumorSameGame 
 
 - Part A : public SumOrSameGame(int numRows, int numCols)
