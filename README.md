@@ -1,5 +1,8 @@
 # AP-CSA-2025
 
+### Introduction
+This repository contains answers to the free-response questions from the AP-CSA 2025 exam. 
+
 ## Question 1 - Dogwalking Company 
 
 - Part A : walkDogs (int hour)
