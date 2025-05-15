@@ -1,11 +1,30 @@
 ## Part A
 
 public int walkDogs (int hour) {
-  
+  int available = company.noAvailableDogs();
+
+  if (maxDogs > avail) {
+    updateDogs(hour, available);
+  }
+
+  else {
+    updateDogs(hour, maxDogs);
+    return maxDogs;
+  }
 }
 
 ## Part B
 
 public int dogWalkShift(int startHour, int endHour) {
+  int earnings = 0; 
 
+  for (int i = startHour; i <= endHour; i++) {
+    int walked = walkDogs(i); 
+    boolean bonus = (walked == walkDogs) || 9 <= i <. 17;
+
+    earnings += walked* 5);
+    if (bonus == true;) {
+      earnings += 3; 
+    }
+  return earnings; 
 }
