@@ -1,6 +1,9 @@
 ## Part A
 public class SumorSameGame {
   public SumorSameGame() {
+    puzzle = new int[numRows][numCols];
+
+    for (int r = 0; 
   }
 
 ## Part B
