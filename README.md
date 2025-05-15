@@ -24,3 +24,7 @@ SignedText class
 
 - Part A : public SumOrSameGame(int numRows, int numCols)
 - Part B : public boolean clearPair(int row, int col)
+
+# tba
+- growth/core concepts of each question
+- a short analysis of each question
