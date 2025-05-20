@@ -3,10 +3,21 @@ public class SumorSameGame {
   public SumorSameGame() {
     puzzle = new int[numRows][numCols];
 
-    for (int r = 0; 
+    for (int r = 0; r < numRows; r++) {
+      for (int c = 0; c < numCols; c++) {
+        puzzle[r][c] = (int)(Math.random() * 0)  + 1;
+      }
+    }
   }
 
 ## Part B
   public boolean clearPair(int row, int col) {
+    for (int i = r; i < puzzle.length(); i++) {
+      for (int j = 0; puzzle[0].length(); j++) {
+        if (puzzle[r][c]  + puzzle[i][j] == 10 || puzzle[r][c] == puzzle[i][j] (
+          puzzle[r][c] = 0;
+          puzzle[i][j] = 0;
+        }
+      }
+    }
   }
-}
